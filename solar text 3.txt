@@ -47,9 +47,9 @@ AA 01 01 01 04 03 00 00 22 2A AA 01 01 03 04 24 00 00 40 60 FE 13 50 14 2C 01 F4
 AA 01 01 01 03 03 01 00 14 38 AA 01 01 03 03 16 01 00 F1 0C 00 00 74 06 00 00 2A 08 C3 01 98 08 CA 01 6D 06 00 00 EC 
 
 realterm settings
-display hex with space, 210 columns, 50 rows, double new injected next to clear button.
+display hex with space, 210 columns, 50 rows, double new line injected (next to clear button.)
 
-captured with 2 kramer vp14 in line to split 27.3.23 6pm
+captured to split 27.3.23 6pm
 
 AA 01 01 01 00 03 00 00 1E 32 AA 01 01 03 00 20 00 00 01 00 44 02 25 02 56 00 00 00 00 00 00 00 D8 01 00 00 0D 00 1E 00 53 00 3D 00 23 E1 00 00 D5                                                                
                                                                                                                                                                                                                   
