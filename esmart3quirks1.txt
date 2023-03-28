@@ -1,0 +1,8 @@
+- Following an attempt at data capture a few years ago, my 60 amp's fan now always runs. Had to install a single throw single pole switch on the side
+  of the controller that I manually switch on when needed.
+  https://www.ebay.co.uk/itm/204277991388
+  Fortunately the controller clips the power it's converting when internal temperature gets too high. 
+  
+- I haven't noticed a complete drop in converted power at any point during a day.
+
+- I have noticed morning power can be max 20% off when between 100w-1000w. Switching off the PV strings and switching back on solves that.
