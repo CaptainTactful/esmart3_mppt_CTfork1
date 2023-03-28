@@ -9,8 +9,8 @@ I dabbled at copying the comms a few years back and gave up, hibernating this wi
 
 My ultimate goal is get all this into javascript so the control system can control the inverter natively.
 For now my comms setup is quite unnecessarily elaborate.
-I'm a big fan of serial/rs232 ports so the adaptor I use for the comms is one of these
-https://www.ebay.co.uk/itm/234491472477
+
+I'm a big fan of serial/rs232 ports so the adaptor I use for the comms is one of these https://www.ebay.co.uk/itm/234491472477
 That goes into a 4 port duplicator (one to future control systemuse, one to ubuntu server serial port for influxdb, one another 4 port duplicator)
 2nd duplicator has one port to pc com port for mysolar monitor and one port to anther pc comm port to view and capture with realterm
 
