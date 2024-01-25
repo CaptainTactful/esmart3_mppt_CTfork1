@@ -1,0 +1,7 @@
+useful website threads/posts/gits.
+
+https://secondlifestorage.com/index.php?threads/hepl-me-charger-mppt-esmart3-40a-factory-application-options.11184/
+https://secondlifestorage.com/index.php?threads/esmart3-nuissances.6195/
+https://community.home-assistant.io/t/esmart3-mppt-off-grid-solar-controller/416138
+https://github.com/joba-1/Joba_ESmart3
+https://github.com/skagmo/esmart_mppt
