@@ -44,7 +44,13 @@ class esmart:
                 self.ser.write(self.pack(pl))
 
         def parse(self, data):
+
+		# callback loop starts
                 for c in data:
+
+			#if loop is running first (*actually second time* - empty run through to trigger initial request_message) time determined by '0' 
+			#and if \xaa character is received change the loop to running by changing state, part of the self object to '1'
+			
                         if (self.state == STATE_START):
                                 if (c == 0xaa):
                                         # Start character detected
@@ -55,6 +61,7 @@ class esmart:
                                         #print c
 
                         elif (self.state == STATE_DATA):
+				# loop and append each byte. Doesn't appear any framing. unknown length and checksum characters.
                                 self.data.append(c)
                                 # Received enough of the packet to determine length
                                 if (len(self.data) == 5):
