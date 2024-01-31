@@ -1,0 +1,13 @@
+joba issue draft1
+
+Hi,
+Looking for some help.
+I'm trying to strip down some of the complexity I don't fully understand, but also think I don't need in my situation.
+
+Original situation was : esmart3 --> sintech rs485 to rs232 adaptor to com port on pc for mygreensolar monitor.
+Discovered skagmos python script sevaral months ago. Set up dedicated mini pc running ubuntu server. Enabled ssh and a serial console. I have a third party UI that I send strings over the serial console that runs (./) or ^C (\x03) skagmos script.
+The UI parses the serial console into javascript which I then send the stats to influx.
+
+Here's where I'm held up.
+I'd like to replace the ubuntu server with a dedicated board for both of my esmart3 controllers. (giving paralleling dumb controllers a go)
+ I have used the arduino IDE and UNOs for a while and am aware of the difference between rs232 3.3v (ttl?) and dedicated ports
