@@ -107,6 +107,12 @@ class esmart:
                         while not opened:
                                 try:
                                         self.ser = serial.Serial(self.port,38400,timeout=0)
-                                        time.sleep(0.5)    
+                                        time.sleep(0.5)
+                                        if self.ser.read(100):
+                                                opened = 1
+                                        else:
+                                                self.ser.close()
+                                except serial.serialutil.SerialException:
+                                        time.sleep(0.5)
                                         self.ser.close()
                         print("Error fixed")
